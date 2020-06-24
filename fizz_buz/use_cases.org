@@ -1,0 +1,10 @@
+#+TITLE: Use_cases
+
+- Can I call FizzBuzz
+- Get "1" when 1 is passed in
+- "2" when 2 is passed in
+- "Fizz" when 3 is passed in
+- "Buzz" when 5 is passed in
+- "Fizz" when 6 is passed in
+- "Buzz" when 10 is passed in
+- "FizzBuzz" when 15 is passed in
