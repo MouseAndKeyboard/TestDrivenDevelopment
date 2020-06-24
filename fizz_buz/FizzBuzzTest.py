@@ -3,7 +3,7 @@
 import pytest
 
 def fizzBuzz(value):
-    return
+    return "1"
 
 def test_canAssertTrue():
     assert True
