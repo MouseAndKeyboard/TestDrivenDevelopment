@@ -4,3 +4,5 @@ import pytest
 
 def test_canAssertTrue():
     assert True
+def test_canCallFizzBuzz():
+    fizzBuzz(1)
