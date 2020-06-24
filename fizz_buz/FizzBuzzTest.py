@@ -3,11 +3,13 @@
 import pytest
 
 def fizzBuzz(value):
-    if value % 3 == 0:
+    if isMultiple(value, 3):
         return "Fizz"
-    elif value % 5 == 0:
+    elif isMultiple(value, 5):
         return "Buzz"
     return str(value)
+def isMultiple(value, mod):
+    return value % mod == 0
 
 def test_canAssertTrue():
     assert True
