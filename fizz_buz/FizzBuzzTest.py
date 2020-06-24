@@ -2,6 +2,9 @@
 
 import pytest
 
+def fizzBuzz(value):
+    return
+
 def test_canAssertTrue():
     assert True
 def test_canCallFizzBuzz():
