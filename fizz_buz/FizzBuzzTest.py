@@ -7,11 +7,12 @@ def fizzBuzz(value):
 
 def test_canAssertTrue():
     assert True
+def checkFizzBuzz(value, expectedRet):
+    retVal = fizzBuzz(value)
+    assert retVal == expectedRet
 
 def test_returnsWith1Passed():
-    retVal = fizzBuzz(1)
-    assert retVal == "1"
+    checkFizzBuzz(1, "1")
 
 def test_returns2With2Passed():
-    retVal = fizzBuzz(2)
-    assert retVal == "2"
+    checkFizzBuzz(2, "2")
