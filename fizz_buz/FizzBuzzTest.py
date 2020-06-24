@@ -9,3 +9,7 @@ def test_canAssertTrue():
     assert True
 def test_canCallFizzBuzz():
     fizzBuzz(1)
+
+def test_returnsWith1Passed():
+    retVal = fizzBuzz(1)
+    assert retVal == "1"
