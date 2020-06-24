@@ -34,3 +34,16 @@ def test1():
 def testTwo():
     print('This Is TEST TWO')
     assert True
+
+
+class TestClass:
+    @classmethod
+    def setup_class(cls):
+        print('setting up the test class')
+
+    @classmethod
+    def teardown_class(cls):
+        print('tearing down the test class')
+
+    def test1(self):
+        assert True
