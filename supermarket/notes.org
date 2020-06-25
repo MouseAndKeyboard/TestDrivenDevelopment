@@ -1,0 +1,10 @@
+#+TITLE: Notes
+
+- [ ] Create instance
+- [ ] Add an item price
+- [ ] Add an item
+- [ ] Calculate current total
+- [ ] Add multiple items and get correct total
+- [ ] Can add discount rules
+- [ ] Can apply discount rules to total
+- [ ] Exception when item is added without corresponding price
