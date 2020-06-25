@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
 
-def readFromFile():
+def readFromFile(fileName):
     pass
