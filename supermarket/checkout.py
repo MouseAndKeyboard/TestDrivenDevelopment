@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 
 class Checkout:
-    pass
+    def addItemPrice(self, itemName, price):
+        pass
