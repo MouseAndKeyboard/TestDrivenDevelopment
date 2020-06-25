@@ -3,7 +3,7 @@
 - [X] Create instance
 - [X] Add an item price
 - [X] Add an item
-- [ ] Calculate current total
+- [X] Calculate current total
 - [ ] Add multiple items and get correct total
 - [ ] Can add discount rules
 - [ ] Can apply discount rules to total
