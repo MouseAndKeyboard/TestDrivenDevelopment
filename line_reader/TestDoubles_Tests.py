@@ -2,9 +2,6 @@
 from LineReader import readFromFile
 from unittest.mock import MagicMock
 
-def test_canCallReadFromFile():
-    readFromFile("file")
-
 def test_returnsCorrectString(monkeypatch):
     mock_file = MagicMock()
     mock_file.readline = MagicMock(return_value="test line")
