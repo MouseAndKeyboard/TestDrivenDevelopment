@@ -7,4 +7,4 @@
 - [X] Add multiple items and get correct total
 - [X] Can add discount rules
 - [X] Can apply discount rules to total
-- [ ] Exception when item is added without corresponding price
+- [X] Exception when item is added without corresponding price
