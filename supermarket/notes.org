@@ -1,6 +1,6 @@
 #+TITLE: Notes
 
-- [ ] Create instance
+- [X] Create instance
 - [ ] Add an item price
 - [ ] Add an item
 - [ ] Calculate current total
