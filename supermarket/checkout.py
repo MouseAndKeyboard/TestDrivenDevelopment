@@ -16,6 +16,9 @@ class Checkout:
         self.prices[itemName] = price
 
     def addItem(self, itemName):
+        if itemName not in self.prices:
+            raise Exception("No price defined for item")
+
         if itemName in self.items:
             self.items[itemName] += 1
         else:
