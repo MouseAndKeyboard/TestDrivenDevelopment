@@ -13,3 +13,6 @@ class Checkout:
 
     def calculateTotal(self):
         return self.total
+
+    def addDiscount(self, item, nbrItems, price):
+        pass
