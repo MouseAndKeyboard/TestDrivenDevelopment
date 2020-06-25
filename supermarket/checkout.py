@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
 class Checkout:
+    def __init__(self):
+        self.prices = {}
+        self.total = 0
+
     def addItemPrice(self, itemName, price):
-        pass
+        self.prices[itemName] = price
 
     def addItem(self, itemName):
-        pass
+        self.total += self.prices[itemName]
 
     def calculateTotal(self):
-        return 1
+        return self.total
