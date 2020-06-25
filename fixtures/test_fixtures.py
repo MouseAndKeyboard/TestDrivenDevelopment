@@ -2,15 +2,14 @@
 
 import pytest
 
-@pytest.fixture()
+@pytest.fixture(autouse=True)
 def setup():
     print('SETTING UP STUFF')
-
-def test1(setup):
+def test1():
     print('executing test')
     assert True
 
-@pytest.mark.useFixtures("setup")
+
 def test2():
     print('doing the second test')
     assert True
